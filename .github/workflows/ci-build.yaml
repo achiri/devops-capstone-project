@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: python:3.6-slim
+    container: python:2.7.17-slim
 
     services:
       postgres:
